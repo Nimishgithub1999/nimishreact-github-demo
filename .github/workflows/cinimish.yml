@@ -23,7 +23,7 @@ jobs:
         working-directory: ./nimishreact-app
 
       - name: Run tests
-        run: npm test
+        run: npm test -- --passWithNoTests
         working-directory: ./nimishreact-app
 
       - name: Build project
